@@ -1,0 +1,215 @@
+baseURL: http://example.org/
+# languageCode: en-us
+title: "暴走虾球"
+theme: PaperModX
+paginate: 5
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+pygmentsUseClasses: true
+enableEmoji: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: 
+  author: [B卜卜, 啾啾咕]
+  mainSections:
+    - about
+    - posts
+  keywords: [blog, lifestyle, food, reviews]
+  disableAnchoredHeadings: false
+  # images: ["cover.png"]
+  DateFormat: "2006-01-02"
+  useCustomAnalytics: false
+
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowAuthor: true
+  ShowReadingTime: true
+  # ShowWordCount: true
+  disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  TocSide: "left"
+  EnableInstantClick: true
+  EnableImageZoom: true
+  disableScrollToTop: false
+  comments: true
+  hidemeta: false
+  hideSummary: false
+
+  commentSystems:
+    disqus:
+      shortname: 
+    remark42:
+      url: https://remark42.reorx.com
+      site: reorx.github.io
+    telegramWidget:
+      channel: reorx_share
+      accentColor: "9077e1"
+      limit: 20
+    waline:
+      url: 
+  defaultCommentSystems:
+    waline: true
+
+  profileMode:
+    enabled: false
+    title: PaperModX
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: /archives/
+      - name: Tags
+        url: /tags/
+
+  homeInfoParams:
+    Title: "Runaway Shrimp"
+    Content: ... to the lonely margin of the sea...
+
+  socialIcons:
+    - name: instagram
+      url: "https://www.instagram.com/runawayshrimp/"
+    - name: rss-simple
+      url: "index.xml"
+
+  # editPost:
+  #   URL: "https://github.com/reorx/hugo-PaperModX/tree/exampleSite/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+  label:
+      text: "Home"
+      icon: 'apple-touch-icon.png'
+      iconHeight: 30
+
+  # assets:
+  #     favicon: "assets/favicon.ico"
+  #     favicon16x16: "assets/favicon-16x16.png"
+  #     favicon32x32: "assets/favicon-32x32.png"
+  #     apple_touch_icon: "assets/apple-touch-icon.png"
+  #     safari_pinned_tab: "assets/safari-pinned-tab.svg"
+
+  cover:
+      hidden: true # hide everywhere but not in structured data
+      hiddenInList: true # hide on list pages and home
+      hiddenInSingle: true # hide on single page
+
+  fuseOpts:
+      isCaseSensitive: false
+      shouldSort: true
+      location: 0
+      distance: 1000
+      threshold: 0.4
+      minMatchCharLength: 0
+      keys: ["title", "permalink", "summary", "content"]
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: About
+          url: /about
+          weight: 3
+        - name: Tags
+          url: /tags/
+          weight: 4
+        - name: Archive
+          url: /archives/
+          weight: 5
+        - name: Search
+          url: /search/
+          weight: 10
+
+  # zh:
+  #   languageName: ":cn:"
+  #   languageAltTitle: 中文
+  #   weight: 2
+  #   title: Runaway Shrimp
+  #   # profileMode:
+  #   #   enabled: false
+  #   #   title: PaperModX
+  #   #   # imageUrl: "#"
+  #   #   # imageTitle: my image
+  #   #   # imageWidth: 120
+  #   #   # imageHeight: 120
+  #   #   subtitle: >
+  #   #     <p>Hugo 主题</p>
+  #   #     ☄️ 快速 | ☁️ 流畅 | 📖 可读性 | 📱 响应式
+  #   #   buttons:
+  #   #     - name: 文档
+  #   #       url: docs
+  #   #     - name: 标签
+  #   #       url: tags
+  #   menu:
+  #     main:
+  #       - name: 标签
+  #         url: tags/
+  #         weight: 4
+  #       - name: 归档
+  #         url: archives
+  #         weight: 5
+  #       - name: 搜索
+  #         url: search/
+  #         weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: dracula
+    lineNos: false
+    noClasses: false
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
