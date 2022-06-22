@@ -25,7 +25,7 @@ params:
   DateFormat: "2006-01-02"
   useCustomAnalytics: false
 
-  defaultTheme: auto
+  defaultTheme: light
   disableThemeToggle: false
   ShowShareButtons: true
   ShowAuthor: true
