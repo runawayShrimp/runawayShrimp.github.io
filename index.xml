@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>暴走虾球</title>
-    <link>http://example.org/</link>
+    <link>https://runawayshrimp.github.io/</link>
     <description>Recent content on 暴走虾球</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 21 Jun 2022 22:01:56 -0500</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jun 2022 22:01:56 -0500</lastBuildDate><atom:link href="https://runawayshrimp.github.io/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
