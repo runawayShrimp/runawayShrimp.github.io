@@ -21,7 +21,7 @@ params:
     - posts
   keywords: [blog, lifestyle, food, reviews]
   disableAnchoredHeadings: false
-  # images: ["cover.png"]
+  # images: ["cover.jpg"]
   DateFormat: "2006-01-02"
   useCustomAnalytics: false
 
@@ -42,22 +42,22 @@ params:
   EnableInstantClick: true
   EnableImageZoom: true
   disableScrollToTop: false
-  comments: true
+  comments: false
   hidemeta: false
   hideSummary: false
 
   commentSystems:
     disqus:
       shortname: 
-    remark42:
-      url: https://remark42.reorx.com
-      site: reorx.github.io
-    telegramWidget:
-      channel: reorx_share
-      accentColor: "9077e1"
-      limit: 20
-    waline:
-      url: 
+    # remark42:
+    #   url: https://remark42.reorx.com
+    #   site: reorx.github.io
+    # telegramWidget:
+    #   channel: reorx_share
+    #   accentColor: "9077e1"
+    #   limit: 20
+    waline: 
+      url: https://waline-azure.vercel.app
   defaultCommentSystems:
     waline: true
 
