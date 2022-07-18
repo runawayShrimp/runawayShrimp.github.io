@@ -4,7 +4,9 @@ slug: "{{ .Name }}"
 date: {{ .Date }}
 description: ""
 draft: true
-author: ["B卜卜", "啾啾咕"]
+author: 
+    - B卜卜
+    - 啾啾咕
 tags: 
 cover:
     image: "<image path/url>" # image path/url
