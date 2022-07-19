@@ -17,11 +17,10 @@ params:
   description: 
   author: [B卜卜, 啾啾咕]
   mainSections:
-    - about
     - posts
   keywords: [blog, lifestyle, food, reviews]
   disableAnchoredHeadings: false
-  # images: ["cover.jpg"]
+  images: ["cover.jpg"]
   DateFormat: "2006-01-02"
   useCustomAnalytics: false
 
@@ -30,7 +29,7 @@ params:
   ShowShareButtons: true
   ShowAuthor: true
   ShowReadingTime: true
-  # ShowWordCount: true
+  ShowWordCount: false
   disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
@@ -63,20 +62,23 @@ params:
 
   profileMode:
     enabled: false
-    title: PaperModX
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
-    buttons:
-      - name: Archives
-        url: /archives/
-      - name: Tags
-        url: /tags/
+    title: Runaway Shrimp
+    imageUrl: "cover.jpg"
+    imageTitle: lonely margins of the sea
+    imageWidth: 120
+    imageHeight: 120
+    # buttons:
+    #   - name: About
+    #     url: /about
+    #   - name: Posts
+    #     url: /posts/
+    #   - name: Tags
+    #     url: /tags/
+
 
   homeInfoParams:
     Title: "Runaway Shrimp"
-    Content: ... to the lonely margin of the sea...
+    Content: 虾球快跑！这里不是家----
 
   socialIcons:
     - name: instagram
@@ -104,7 +106,7 @@ params:
   cover:
       hidden: true # hide everywhere but not in structured data
       hiddenInList: true # hide on list pages and home
-      hiddenInSingle: true # hide on single page
+      hiddenInSingle: false # hide on single page
 
   fuseOpts:
       isCaseSensitive: false

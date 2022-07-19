@@ -2,8 +2,8 @@
 title: "我好像只能活100天"
 slug: "grand-scheme-of-things"
 date: 2022-07-18T18:16:54-05:00
-description: "百日维新（？），好像也不错？"
-draft: true
+description: "百日一维新，好像也不错?"
+draft: false
 author: 
     - B卜卜
 tags: 
