@@ -63,6 +63,7 @@ params:
   profileMode:
     enabled: false
     title: Runaway Shrimp
+    subtitle: 这儿觅、彼如迷
     imageUrl: "cover.jpg"
     imageTitle: lonely margins of the sea
     imageWidth: 120
@@ -78,7 +79,7 @@ params:
 
   homeInfoParams:
     Title: "Runaway Shrimp"
-    Content: 虾球快跑！这里不是家----
+    # Content: 
 
   socialIcons:
     - name: instagram
