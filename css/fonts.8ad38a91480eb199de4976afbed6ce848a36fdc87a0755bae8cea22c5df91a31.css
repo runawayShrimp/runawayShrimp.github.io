@@ -19,12 +19,12 @@
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  src: url('Palanquin-Medium.eot');
-  src: url('Palanquin-Medium.eot?#iefix') format('embedded-opentype'),
-      url('Palanquin-Medium.woff2') format('woff2'),
-      url('Palanquin-Medium.woff') format('woff'),
-      url('Palanquin-Medium.ttf') format('truetype'),
-      url('Palanquin-Medium.svg#Palanquin-Medium') format('svg');
+  src: url('../fonts/Palanquin-Medium.eot');
+  src: url('../fonts/Palanquin-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Palanquin-Medium.woff2') format('woff2'),
+      url('../fonts/Palanquin-Medium.woff') format('woff'),
+      url('../fonts/Palanquin-Medium.ttf') format('truetype'),
+      url('../fonts/Palanquin-Medium.svg#Palanquin-Medium') format('svg');
 }
 
 /* Sansita */
@@ -33,13 +33,13 @@
   font-weight: bold;
   font-style: italic;
   font-display: swap;
-  src: url('Sansita-BoldItalic.eot');
+  src: url('../fonts/Sansita-BoldItalic.eot');
   src: url('../fonts/Sansita-BoldItalic.otf') format('OpenType'),
-      url('Sansita-BoldItalic.eot?#iefix') format('embedded-opentype'),
-      url('Sansita-BoldItalic.woff2') format('woff2'),
-      url('Sansita-BoldItalic.woff') format('woff'),
-      url('Sansita-BoldItalic.ttf') format('truetype'),
-      url('Sansita-BoldItalic.svg#Sansita-BoldItalic') format('svg');
+      url('../fonts/Sansita-BoldItalic.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Sansita-BoldItalic.woff2') format('woff2'),
+      url('../fonts/Sansita-BoldItalic.woff') format('woff'),
+      url('../fonts/Sansita-BoldItalic.ttf') format('truetype'),
+      url('../fonts/Sansita-BoldItalic.svg#Sansita-BoldItalic') format('svg');
 }
 
 /* roboto-mono-regular - latin */

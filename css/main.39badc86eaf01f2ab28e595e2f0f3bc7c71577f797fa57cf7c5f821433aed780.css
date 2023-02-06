@@ -222,11 +222,11 @@ header {
 
 header .main {
   font-size: 1.8rem;
-  font-family: 'Sansita';
+  font-family: 'Sansita', "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Palanquin';
+  font-family: 'Palanquin', "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.2rem;
   margin-top: 2em;
 }
@@ -559,7 +559,7 @@ table td{
 
 /* change pagination */
 .pagination {
-  font-family: 'Palanquin';
+  font-family: 'Palanquin', "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
   margin-top: 50px;
   padding-left: 15px;
 }
