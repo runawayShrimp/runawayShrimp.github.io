@@ -1,4 +1,4 @@
-baseURL = 'http://runawayShrimp.github.io/'
+baseURL = 'https://runawayShrimp.github.io/'
 languageCode = 'en-us'
 title = 'Runaway Shrimp'
 theme = "archie"
