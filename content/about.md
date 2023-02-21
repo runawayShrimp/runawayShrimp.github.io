@@ -6,7 +6,7 @@ date = 2022-06-21T22:01:56-05:00
 
 ## B卜卜
 
-![B卜卜 portrait](/images/misty.png#floatleft)
+![B卜卜 portrait](/images/mimi_nostalgic-dream.png#floatleft)
 
 &nbsp;
 &nbsp;
@@ -19,7 +19,7 @@ date = 2022-06-21T22:01:56-05:00
 
 ## 啾啾咕
 
-![啾啾咕 portrait](/images/pipi_light11.png#floatleft)
+![啾啾咕 portrait](/images/pipi_nostalgic-dream.png#floatleft)
 
 &nbsp;
 &nbsp;
