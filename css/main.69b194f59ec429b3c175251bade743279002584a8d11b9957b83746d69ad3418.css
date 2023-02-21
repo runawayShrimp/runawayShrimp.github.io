@@ -1,12 +1,12 @@
 /* Markdown */
 :root{
 
---maincolor: #6784ffff;
---bordercl:#6784ff80;
---hovercolor:#e9b372ff;
---bgcolor: #ffffff;
+--maincolor: rgba(103, 132, 255, 0.99);
+--bordercl: rgba(103, 132, 255, 0.5);
+--hovercolor: rgba(147, 158, 75, 0.99);
+--bgcolor: #F2F0E4;
+--codebgcolor: rgba(103, 132, 255, 0.2);
 
---codebgcolor: #6784ff33;
 /* --codebgcolor: var(--bordercl); */
 --textcolor: #222;
 --metacolor: DarkGray;
@@ -18,10 +18,10 @@
 --darkHovercolor: #ffc020ff;
 --darkBgcolor: #2c2c2c; */
 
---darkMaincolor: #6784ffff;
---darkBordercl: #6784ff80;
---darkCodebgcolor: #6784ff33;
---darkHovercolor: #d8a37fff;
+--darkMaincolor: rgba(169, 190, 255, 0.99);
+--darkBordercl: rgba(169, 190, 255, 0.5);
+--darkCodebgcolor: rgba(169, 190, 255, 0.2);
+--darkHovercolor: rgba(203, 230, 0, 0.99);
 --darkBgcolor: #262626;
 
 --darkTextcolor: #eee;
